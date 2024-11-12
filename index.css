@@ -977,6 +977,11 @@
     grid-template-columns: 100%;
     grid-auto-columns: calc(100% - 0px);
   }
+  .u-section-2 .u-container-layout-7 {
+    padding-left: 10px;
+    padding-right: 10px;
+    height:433.391px;
+  }
 
   .u-section-3 .u-container-layout-1 {
     padding-right: 10px;
@@ -1010,6 +1015,11 @@
 } .u-section-4 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('images/silhouette-person-standing-top-hill-beautiful-colorful-sky-morning-4.jpg');
   background-position: 50% 50%;
+}
+.u-section-2 .u-container-layout-7 {
+  padding-left: 10px;
+  padding-right: 10px;
+  height:433.391px;
 }
 
 .u-section-4 .u-sheet-1 {
@@ -1105,5 +1115,11 @@
 
   .u-section-4 .u-group-1 {
     width: 340px;
+  }
+}
+
+#newcard {
+  @media (max-width:767px) { 
+    height:433.391px;
   }
 }
